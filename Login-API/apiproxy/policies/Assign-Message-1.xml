@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
+    <DisplayName>Assign Message-1</DisplayName>
+    <Properties/>
+    <AssignVariable>
+        <Name>private.privatekey</Name>
+        <Value>
+            -----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQC8j82GHMVizt2ZMozANzOOu9ftYCVaF2m30zzi3qXQilX19Tji
+obYUXSPxr2rBmB3IYEf4MDXCcyVKDlEHrT3F3AEJrAdqFvOumpzhfwGNXaZ3RbpH
+An5ybcNk3F9zOGbNEEtdni+Y4BeYM44ebWXjciDhZw9LNV+cLyOFyQ0xJQIDAQAB
+AoGAOhxDJXKWbhX8eur2L4KTlAhVyiTYPgR7Ixipae1dwn/vb+ZLyqQ1fd8aZbA+
+wTzE6OyrIVSSLMPZmRICbNA5+cjMj0sx56VPTHzfZC8k0yYEKRdQcLXjlUcOrjPP
+uRAqHh5nQCEFsmIhU7fJeMm3Z2Al6xDWXTgZgPikZO62mKECQQD1ZgzIPRS6JQgt
+gP6eyu+E56yLO1T3CT1PZ3WZs0O9GRywBzHQCp9uF5f9JBTEYbxuonbzdT+ZZUHA
+VuJMftVtAkEAxLUsbLrsJ/ParwVwFTiAYQML1bCk+cW0i+K4B1DZlWY5dr9Q7WQQ
+7z8wOX3q8il+AkX1P1/qmOoAXIEmnA9PmQJAbp8lLfLS8CKXcCPRI/XpSSlCj7Uc
+VQw2NiA2VCYKaCj01Kk5nEXdnrxGCJgGQIyqa9kS9Carl9Occz73XnJidQJBALTH
+ZIqQx1R4cfQD5Vw7TxDZQdkjvJqoLiOZO1PN5Am/pvQRI4joPAAEbIeJx5DCvUHN
+lXSm6+2YsLhTIW6vS5ECQDlbhZ67+D40AxQiXaS28jlir2CXD55V5QhWETWEQ7/+
+kKRca8o9EeZWtbd+uK39MJ2QBv74+rPQuPbBz5TkkiA=
+-----END RSA PRIVATE KEY-----
+</Value>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

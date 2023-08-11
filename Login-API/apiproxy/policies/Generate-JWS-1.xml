@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenerateJWS name="Generate-JWS-1">
+    <DisplayName>Generate JWS-1</DisplayName>
+    <Algorithm>RS256</Algorithm>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <PrivateKey>
+        <Value ref="private.privatekey"/>
+    </PrivateKey>
+    <Payload ref="request.header.payload"/>
+    <DetachContent>true</DetachContent>
+    <OutputVariable>jws_variable</OutputVariable>
+</GenerateJWS>

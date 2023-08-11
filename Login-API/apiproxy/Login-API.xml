@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="Login-API">
+    <Basepaths>/login</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1685596708386</CreatedAt>
+    <CreatedBy>hari.80366@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Login-API</DisplayName>
+    <LastModifiedAt>1685596708386</LastModifiedAt>
+    <LastModifiedBy>hari.80366@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:f75f223a08f89aa5eb3cc24a160ce359baef5ba1b8a215eb2fc743d512215255a1a549998e0b6b1b2c1d2033d9f640f266571c267e83fc2ae42be21eb1dd9008:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Assign-Message-2</Policy>
+        <Policy>Generate-JWS-1</Policy>
+        <Policy>Generate-JWT-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
