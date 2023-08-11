@@ -1,0 +1,96 @@
+{
+    "version": "1.0",
+    "envConfig": {
+        "prod": {
+          "targetServers": [
+              {
+                "host" : "httpbin.org",
+                "isEnabled" : true,
+                "name" : "targeta",
+                "port" : 80
+              }
+          ],
+          "virtualHosts": [],
+          "caches": [
+              {
+                "name": "cicd-cache",
+                "description": "Cicd pipeline cache in Production",
+                "expirySettings": {
+                    "timeoutInSec": {
+                        "value": "6000"
+                    },
+                    "valuesNull": false
+                }
+              }            
+          ],
+          "kvms": [
+                {
+                    "name": "cicd-kvm-credentials",
+                    "entry": [
+                        {
+                            "name": "username",
+                            "value": "aegon"
+                        },
+                        {
+                            "name": "password",
+                            "value": "hcl"
+                        }
+                    ]
+                }
+            ],
+          "resourcefiles":[],
+          "flowhooks":[]
+        }
+    },
+    "orgConfig": {
+        "apiProducts": [
+            {
+                "name": "targetServerProduct",
+                "apiResources": [
+                    "/",
+                    "/**"
+                ],
+                "approvalType": "auto",
+                "attributes": [
+                    {
+                        "name": "access",
+                        "value": "public"
+                    }
+                ],
+                "description": "",
+                "displayName": "targetServerProduct",
+                "environments": [
+                    "prod",
+                    "test"
+                ],
+                "proxies": [
+                    "Login-API",
+                    "TargetServer"
+                ],
+                "quota": "100000000",
+                "quotaInterval": "1",
+                "quotaTimeUnit": "minute",
+                "scopes": []
+            }        
+        ],
+        "developers": [
+            {
+                "email": "nehapj2k@gmail.com",
+                "firstName": "Neha",
+                "lastName": "P",
+                "userName": "nehapj2k",
+                "attributes": []
+            }
+        ],
+        "developerApps": {
+            "nehapj2k@gmail.com": [
+                {
+                    "name": "targetServerApp",
+                    "apiProducts": [ "targetServerProduct" ],
+                    "callbackUrl": "",
+                    "scopes": []
+                }
+            ]
+        }
+    }   
+}
